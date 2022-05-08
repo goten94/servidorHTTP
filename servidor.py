@@ -54,5 +54,6 @@ while True:
     final_response += response
     data="hola mundo re"
     connection.send(final_response+data.encode("utf-8"))
+    connection.body
     connection.close()
 
